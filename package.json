@@ -1,17 +1,16 @@
 {
-  "name": "softuni-booking-project",
+  "name": "04.workshop1",
   "version": "1.0.0",
-  "description": "This is a repository from SoftUni Workshop",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "express-handlebars": "^7.0.7",
-    "nodemon": "^2.0.22"
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
   }
 }

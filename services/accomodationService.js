@@ -1,11 +1,11 @@
-const fs = require('fs/promises');
+const fs = require('fs');
 
-const fileName = './models/data.json'
-const data = JSON.parse(fs.readFileSync(fileName));
+const filename = './models/data.json';
+const data = JSON.parse(fs.readFileSync(filename));
 
 async function persist() {
     return new Promise((res, rej) => {
-        fs.writeFile(fileName, JSON.stringify(data), (err) => {
+        fs.writeFile(filename, JSON.stringify(data), (err) => {
             if (err == null) {
                 res();
             } else {
@@ -25,5 +25,5 @@ function getById(id) {
 
 module.exports = {
     getAll,
-    getById,
+    getById
 };
