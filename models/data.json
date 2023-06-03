@@ -1,1 +1,1 @@
-[{"id":"1234","name":"Room","description":"Nice and cozy","city":"Bansko","beds":2,"price":130,"imgUrl":"/static/assets/room1.png"},{"id":"000000cd626.b03f12fe8","name":"Hotel room","description":"Enjoy our special room","city":"Pleven","beds":1,"price":129,"imgUrl":"/static/assets/room2.png"}]
+[{"id":"1234","name":"Room","description":"Nice and cozy","city":"Bansko","beds":2,"price":130,"imgUrl":"/static/assets/room1.jpg"},{"id":"029ee4","name":"Hotel Room","description":"Spacious. Great view.","city":"Sofia","beds":2,"price":150,"imgUrl":"/static/assets/room2.jpg"}]

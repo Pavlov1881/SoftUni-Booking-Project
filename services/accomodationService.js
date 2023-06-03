@@ -31,20 +31,21 @@ async function create(roomData) {
         city: roomData.city,
         beds: Number(roomData.beds),
         price: Number(roomData.price),
-        imgUrl: roomData.imgUrl,
-    }
+        imgUrl: roomData.imgUrl
+    };
 
     data.push(room);
     await persist();
+
     return room;
 }
 
 function getId() {
-    return '000000' + (Math.random() * 999999).toString(16);
+    return ('000000' + (Math.random() * 999999 | 0).toString(16)).slice(-6);
 }
 
 module.exports = {
     getAll,
     getById,
-    create,
+    create
 };
