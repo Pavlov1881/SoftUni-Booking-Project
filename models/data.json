@@ -5,6 +5,7 @@
         "description": "Nice and cozy",
         "city": "Bansko",
         "beds": 2,
-        "price": 130
+        "price": 130,
+        "imgUrl": "/static/assets/room1.png"
     }
 ]
