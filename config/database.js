@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-const connStr = process.env.DATABASE_CONNECTION_STRING || 'mongodb://localhost:27017/softuni-booking';
+const connStr = 'mongodb://127.0.0.1:27017/softuni-booking';
 
 module.exports = async (app) => {
     try {
